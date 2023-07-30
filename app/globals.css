@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url('../fonts/Gilroy-Bold.ttf') format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+    
+  @font-face {
+    font-family: "GilroyLight";
+    src: url('../fonts/Gilroy-Light.ttf') format("ttf");;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+    
+  @font-face {
+    font-family: "SpectralBold";
+    src: url('../fonts/Spectral-Bold.ttf') format("ttf");;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SpectralExtraBold";
+    src: url('../fonts/Spectral-ExtraBold.ttf') format("ttf");;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SpectralLight";
+    src: url('../fonts/Spectral-Light.ttf') format("ttf");;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SpectralLightItalic";
+    src: url('../fonts/Spectral-LightItalic.ttf') format("ttf");;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "SpectralMedium";
+    src: url('../fonts/Spectral-Medium.ttf') format("ttf");;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+body {
+    /* font-family: "Gilroy"; */
+}
+
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+html:not([data-scroll="0"]) .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white !important;
+    opacity: 1.9;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.4s linear;
+    padding: 0px !important;
+    z-index: 3;
+}
+
+html:not([data-scroll="0"]) .ttty {
+    background-color: #0057FF !important;
+    color: white !important;
+}
+
+.bg-header {
+    background: linear-gradient(120.3deg, #FFFFFF 31.56%, rgba(255, 255, 255) 94.83%);
+}
+.bg-navbar {
+    background: linear-gradient(120.3deg, #ffffff 36.56%, rgb(255, 255, 255) 122.83%);
+}
+
+.font-family {
+    font-family: 'SpectralBold';
+}
+
+.w-270px {
+    width: 270px;
+}
+
+.mainlogo {
+    font-size: 28px;
+    font-family: wfont_2d7db3_2eed6a8d31ae4af697263d91c44ac8b8,wf_2eed6a8d31ae4af697263d91c,orig_spectral_bold;
+}
+
+.brandColor {
+    color: #F36F21;
+    font-weight: 700;
+}
+
+.w-60px {
+    width: 60px;
+}
+
+.space-links {
+    transition: .3s;
+}
+
+.featureShadow {
+    box-shadow: 0px 72px 129px rgba(0, 0, 0, 0.1)
+}
+
+.space-links:hover {
+    letter-spacing: 1px;
+}
+
+@media (min-width: 800px) {
+    .lh-133 {
+        line-height: 133.5% !important;
+    }
+    .goalSize {
+        font-size: 55px!important;
+    }
+}
+
+.lh-143 {
+    line-height: 143.5% !important;
+}
+
+.lh-173 {
+    line-height: 173.5% !important;
+}
+
+.pricing-bg {
+    background: linear-gradient(180deg, #D4F2FF 0%, rgba(212, 242, 255, 0) 100%);
+}
+
+.bxshd {
+    box-shadow: 0px 72px 129px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-icons {
+    transition: .5s;
+}
+
+.footer-icons:hover {
+    transform: translateY(-8px);
+}
+
+.footer-icons:hover>.sepiaa {
+    filter: invert(100.10);
+}
+
+.socialBg {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.w-logo {
+    width: 200px;
+}
+
+.tabComp .bg-orange-500 {
+    border-width: initial!important;
+    color: #fb923c;
+}
+
+.tabComp .flex-col {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.tabComp .button-like {
+    cursor:pointer;
+}
+
+.weightBold {
+    font-weight: bold;
+}
+  
